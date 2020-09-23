@@ -1,0 +1,10 @@
+mat-toolbar {
+  background: rgba(245, 245, 245, .7);
+}
+
+.text {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  flex: 1 1 auto;
+}

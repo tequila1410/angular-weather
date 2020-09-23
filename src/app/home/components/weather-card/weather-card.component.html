@@ -1,0 +1,14 @@
+<mat-card class="weather-card">
+  <mat-card-header>
+    <div mat-card-avatar class="date">
+      <img [src]="currentWeather?.weather[0].icon | weatherIcon" alt="">
+    </div>
+    <mat-card-title>{{currentWeather?.name}}</mat-card-title>
+    <mat-card-subtitle>Today</mat-card-subtitle>
+  </mat-card-header>
+
+  <mat-card-content>
+    <p>Temp: {{currentWeather?.main.temp}}&deg;C</p>
+    <p>Feels like: {{currentWeather?.main.feels_like}}&deg;C</p>
+  </mat-card-content>
+</mat-card>

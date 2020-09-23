@@ -1,0 +1,28 @@
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../../../../assets/images/weather_bg.jpg) no-repeat center;
+}
+
+mat-card {
+  width: 400px;
+  text-align: center;
+}
+
+mat-form-field {
+  display: block;
+}
+
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.opacity {
+  opacity: .2;
+}

@@ -1,0 +1,9 @@
+.weather-card {
+  background-color: #a6d1f7;
+  width: 400px;
+}
+
+.date {
+  font-size: 3em;
+  line-height: 1em;
+}

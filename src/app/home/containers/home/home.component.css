@@ -1,0 +1,10 @@
+.home {
+  background: url(../../../../assets/images/sun_cloud.png) no-repeat center;
+  background-size: 100%;
+}
+
+.main-content {
+  min-height: calc(100vh - 128px);
+  padding: 16px 0;
+  box-sizing: border-box;
+}
